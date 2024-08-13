@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for char in range(ord('a'), ord('z')):
-    print(chr(char), end = '')
+for char in range(97,122):
+    print(f"{chr(char)}", end = '')
